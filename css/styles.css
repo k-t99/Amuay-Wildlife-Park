@@ -1,0 +1,89 @@
+/* ==========
+   BASIC PAGE SETUP
+   This part sets a default font and removes extra white edges.
+   ========== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f2;  /* light nature-ish background */
+  color: #1f2a1c;             /* dark green text */
+}
+
+
+/* ==========
+   HEADER & NAVIGATION
+   This styles the top area and the links.
+   ========== */
+
+header {
+  background-color: #234122;  /* dark green bar at the top */
+  color: white;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: #f0f7ec;
+  text-decoration: none;
+  margin-right: 1rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;      /* makes the links pill-shaped */
+  font-size: 0.95rem;
+}
+
+nav a:hover {
+  background-color: #f3c65b; /* yellow highlight when you hover */
+  color: #234122;
+}
+
+
+/* ==========
+   MAIN CONTENT AREA
+   This controls the middle of the page.
+   ========== */
+
+main {
+  max-width: 900px;
+  margin: 1.5rem auto;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+main h2 {
+  margin-bottom: 0.75rem;
+}
+
+main p {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+
+/* ==========
+   FOOTER
+   ========== */
+
+footer {
+  background-color: #1a2c1a;
+  color: #dddddd;
+  text-align: center;
+  padding: 0.7rem;
+  font-size: 0.85rem;
+  margin-top: 2rem;
+}
