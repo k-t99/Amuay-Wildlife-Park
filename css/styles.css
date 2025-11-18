@@ -87,5 +87,19 @@ background-color: white;
   font-weight: bold;
   font-size: 0.9rem;
 }
-  
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.gallery-grid img {
+  width: 100%;
+  display: block;
+  border-radius: 0.75rem;
+}
+box-shadow:0 2px 4px rgba (0,0,0,0.08);
+
   
