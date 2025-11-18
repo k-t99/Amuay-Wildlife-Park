@@ -38,4 +38,48 @@ footer {
   margin-top: 2rem;
 }
 
-
+.filters {
+  margin: 1rem 0;
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+.filters button {
+  background-color: #848b7f;
+  border: none;
+  padding: 0.6rem 1rem:
+border-radius: 999px:
+cursor: pointer;
+}
+.filter button:hover {
+  background-color: #778472;
+}
+.wildlife-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  marging-top: 1rem;
+}
+.animal-card {
+background-color: white;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba (0,0,0,0.1);
+}
+.animal-card img {
+  width: 100%;
+  border-radius: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+.animal-card h3 {
+  margin: 0.75rem 0;
+}
+.animal-card p {
+  margin: 0.4rem 0;
+}
+.habitat {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+  
+  
