@@ -83,6 +83,11 @@ footer {
 .filter-btn:hover {
   background-color: #c4ddbb;
 }
+.filter-btn.active {
+  background-color: #234122;
+  color: #f0f7ec;
+}
+
 
 .wildlife-grid {
   display: grid;
