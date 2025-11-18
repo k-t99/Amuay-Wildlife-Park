@@ -1,1 +1,41 @@
+body {
+  font-family: Georgia;
+  background-color: #f2f7f3;
+  color: #1f2a1c;
+  margin: 0;
+}
+header h1 {
+  margin: 0 0 0.5rem 0;
+}
+
+nav a {
+  color: #f0f7ec;
+  text-decoration: none;
+  margin-right: 1rem;
+  padding: 0.5rem 0.8rem;
+  border-radius:999px;
+}
+
+nav a:hover {
+  background-color: #f3c65b;
+  color: #234122;
+}
+
+main {
+  max-width: 900px;
+  margin:1.5rem auto;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.75rem;
+}
+
+footer {
+  background-color: #1f2a1c;
+  color: #e0e0e0;
+  text-align: center;
+  padding: 0.8rem;
+  font-size: 0.90rem;
+  margin-top: 2rem;
+}
+
 
