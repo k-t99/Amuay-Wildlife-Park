@@ -1,9 +1,9 @@
 // The code will allow for the animal button to be active on the wildlife page.//
 
-document.addEventListener("Load", function () {
+document.addEventListener("load", function () {
   const Quickfilter = document.querySelectorAll(".filter-btn");
   const animalList = document.querySelectorAll(".animal-card");
-  });
+
   if (!Quickfilter.length || !animalList.length) {
   }
 
@@ -21,11 +21,10 @@ Quickfilter.forEach(function (button) {
       const cardType = card.getAttribute("data-type);
 
     if (type === "all" || type === cardType) {
-        card.style.distplay = "";
+        card.style.display = "";
         } else {
-          card.style.distplay = "non";
-        }
-      });
+          card.style.distplay = "none";
+           });
     });
   });
 });
