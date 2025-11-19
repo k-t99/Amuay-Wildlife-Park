@@ -1,21 +1,23 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const filterButton = document.querySelectorAll(".filter-btn");
-  const animalCard = document.querySelectorAll(".animal-card");
+// The code will allow for the animal button to be active on the wildlife page.//
+
+document.addEventListener("Load", function () {
+  const Quickfilter = document.querySelectorAll(".filter-btn");
+  const animalList = document.querySelectorAll(".animal-card");
   });
-  if (!filterButtons.length || !animalCards.length) {
+  if (!Quickfilter.length || !animalList.length) {
   }
 
-filterButton.forEach(function (button) {
+Quickfilter.forEach(function (button) {
   button.addEventListener("click", function () {
     const type = button.getAttribute("data-type");
     
-    filterButton.forEach(function (btn) {
+   Quickfilter.forEach(function (btn) {
       btn.classList.remove("active");
   });
 
     button.classList.add("active");
     
-    animalCard.forEach(function (card) {
+    animalList.forEach(function (card) {
       const cardType = card.getAttribute("data-type);
 
     if (type === "all" || type === cardType) {
