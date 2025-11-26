@@ -7,23 +7,23 @@ document.addEventListener("load", function () {
   if (!Quickfilter.length || !animalList.length) {
   }
 
-Quickfilter.forEach(function (button) {
-  button.addEventListener("click", function () {
-    const type = button.getAttribute("data-type");
+Quickfilter.forEach(function (Quickfilter) {
+  Quickfilter.addEventListener("click", function () {
+    const type = Quickfilter.getAttribute("data-type");
     
-   Quickfilter.forEach(function (btn) {
-      btn.classList.remove("active");
+   Quickfilter.forEach(function (Quickfilter) {
+     Quickfilter.classList.remove("active");
   });
 
-    button.classList.add("active");
+    Quickfilter.classList.add("active");
     
-    animalList.forEach(function (card) {
-      const cardType = card.getAttribute("data-type);
+    animalList.forEach(function (animalList) {
+      const cardType = animalList.getAttribute("data-type);
 
-    if (type === "all" || type === cardType) {
-        card.style.display = "";
+    if (type === "all" || type === animalList) {
+        animalList.style.display = "";
         } else {
-          card.style.distplay = "none";
+         animalList.style.distplay = "none";
            });
     });
   });
