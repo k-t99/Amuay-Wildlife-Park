@@ -2,9 +2,9 @@
 
 document.addEventListener("load", function () {
   const quickFilter = document.querySelectorAll(".filter-btn");
-  const animalList = document.querySelectorAll(".animal-card");
+  const animalCard = document.querySelectorAll(".animal-card");
 
-  if (!quickFilter.length || !animalList.length) {
+  if (!quickFilter.length || !animalCard.length) {
   return;
   }
 
@@ -18,7 +18,7 @@ quickFilter.forEach(function (button) {
 
     button.classList.add("active");
     
-    animalList.forEach(function (card) {
+    animalCard.forEach(function (card) {
       const cardType = card.getAttribute("data-type);
 
     if (type === "all" || type === cardType) {
