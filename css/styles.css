@@ -8,6 +8,11 @@ header h1 {
   margin: 0 0 0.5rem 0;
 }
 
+header h2 {
+  text-align: center;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+}
 nav a {
   color: #1f2a1c;
   text-decoration: none;
@@ -140,3 +145,4 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
   background-color: #1a321a
 }
+
