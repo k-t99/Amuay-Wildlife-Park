@@ -106,8 +106,6 @@
 <footer>
   <p>&copy; 2025 Amuay Wildlife Park</p>
 </footer>
-
-<!-- put the JS directly in this file -->
 <script>
   // This code makes the wildlife filter buttons work on the Wildlife page.
 
@@ -131,10 +129,8 @@
           btn.classList.remove("active");
         });
 
-        // add "active" class to the clicked button
         button.classList.add("active");
 
-        // loop through each animal card and show / hide depending on type
         animalCards.forEach(function (card) {
           const cardType = card.getAttribute("data-type");
 
