@@ -1,5 +1,5 @@
 body {
-  font-family: Ruda Black;
+  font-family:'Ruda', Georgia, serif;
   background-color: #f2f7f3;
   color: #1f2a1c;
   margin: 0;
@@ -52,16 +52,16 @@ footer {
 .filters button {
   background-color: #848b7f;
   border: none;
-  padding: 0.6rem 1rem:
-border-radius: 999px:
+  padding: 0.6rem 1rem;
+border-radius: 999px;
 cursor: pointer;
 }
-.filter button:hover {
+.filters button:hover {
   background-color: #778472;
 }
 
-.filter button.active {
-  background-color: #234122
+.filters button.active {
+  background-color: #234122;
     color: #f0f7ec;
 }
 
@@ -69,13 +69,13 @@ cursor: pointer;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
-  marging-top: 1rem;
+  margin-top: 1rem;
 }
 .animal-card {
 background-color: white;
   border-radius: 0.75rem;
   padding: 1rem;
-  box-shadow: 0 2px 5px rgba (0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 .animal-card img {
   width: 100%;
@@ -105,7 +105,7 @@ background-color: white;
   display: block;
   border-radius: 0.75rem;
 }
-box-shadow:0 2px 4px rgba (0,0,0,0.08);
+box-shadow:0 2px 4px rgba(0,0,0,0.08);
 
 form {
   max-width: 500px;
@@ -133,11 +133,11 @@ form {
 }
 
 form button[type="submit"] {
-  padding: 0.6re, 1.2rem;
+  padding: 0.6rem, 1.2rem;
   border: none;
   border-radius: 999px;
   background-color: #234122;
-  color: #f0f7ec,
+  color: #f0f7ec;
     cursor: pointer;
   font-size: 0.95rem;
 }
