@@ -33,16 +33,24 @@ h2 {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Ruda', sans-serif;
 }
+nav {
+  display: flex;              /* Flex container */
+  flex-wrap: wrap;            /* Allow links to wrap to next line on small screens */
+  justify-content: center;    /* Center the links horizontally */
+  background-color: #234122;  /* Optional: dark background for nav */
+  padding: 0.5rem 0;          /* Top/bottom padding */
+  width: 100%;                /* Ensure full width */
+  box-sizing: border-box;     /* Include padding in width */
+}
 
 nav a {
-  display: flex;              
-  flex-wrap: wrap;           
-  justify-content: center;    
-  padding: 0.5rem 0;          
-  width: 100%;               
-  box-sizing: border-box;
-  color: #1f2a1c;
+  color: #f0f7ec;
   text-decoration: none;
+  margin: 0.3rem 0.8rem;      /* Space between links */
+  padding: 0.5rem 1rem;       
+  border-radius: 999px;
+  background-color: #1f2a1c;  /* Optional button-like style */
+  transition: background-color 0.3s;
 }
 
 nav a:hover {
