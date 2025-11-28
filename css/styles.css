@@ -213,3 +213,9 @@ form button[type="submit"]:hover {
     height: auto;
     display: inline-block;
 }
+
+p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.05rem;   /* Optional: slightly larger for readability */
+    line-height: 1.6;     /* Adds comfortable spacing */
+}
