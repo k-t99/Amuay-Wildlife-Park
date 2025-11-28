@@ -219,3 +219,10 @@ p {
     font-size: 1.05rem;   /* Optional: slightly larger for readability */
     line-height: 1.6;     /* Adds comfortable spacing */
 }
+
+
+button, 
+.filter-btn, 
+nav a {
+    font-family: 'Ruda', sans-serif;
+}
