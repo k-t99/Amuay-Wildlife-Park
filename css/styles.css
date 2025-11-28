@@ -17,7 +17,7 @@ body {
 }
 
 .logo {
-    position: absolute;  
+    position: relative;  
     display: flex;
     top: 10px;            
     left: 10px;          
