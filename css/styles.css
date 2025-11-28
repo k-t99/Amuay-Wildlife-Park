@@ -8,7 +8,7 @@ body {
 
 .title, h1 {
   font-family: 'Barlow', sans-serif;
-  font-weight: 800;
+  font-weight: 900;
   display: flex;
   align-items: center;    
   justify-content: center;  
@@ -60,6 +60,7 @@ nav a {
   border-radius: 999px;
   background-color: #1f2a1c; 
   transition: background-color 0.3s;
+  font-weight: 500;
 }
 
 nav a:hover {
@@ -216,9 +217,8 @@ form button[type="submit"]:hover {
 
 p {
     font-family: 'Barlow', sans-serif;
-    font-size: 1.05rem;   /* Optional: slightly larger for readability */
-    line-height: 1.6;     /* Adds comfortable spacing */
-}
+    font-size: 1.05rem;   
+    line-height: 1.6;     
 
 
 button, 
