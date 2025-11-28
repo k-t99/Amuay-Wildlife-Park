@@ -200,3 +200,6 @@ form button[type="submit"]:hover {
   background-color: #1a321a
 }
 
+.spacer {
+    height: 2rem; 
+}
