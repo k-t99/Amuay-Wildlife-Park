@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Ruda&display=swap');
+
 body {
-  font-family:'Ruda', Georgia, serif;
-  background-color: #f2f7f3;
-  color: #1f2a1c;
+  background-color: #1d9acc;
+  color: #ffffff;
   margin: 0;
 }
+
+.title, h1 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 700; /* ensures bold */
+}
+
 header h1 {
   margin: 0 0 0.5rem 0;
 }
@@ -13,6 +20,10 @@ header h2 {
   margin-top: 0.25rem;
   margin-bottom: 1rem;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ruda', sans-serif;
+}
+
 nav a {
   color: #1f2a1c;
   text-decoration: none;
