@@ -222,6 +222,7 @@ form button[type="submit"]:hover {
     max-width: 100%;
     height: auto;
     display: inline-block;
+   margin-top: -10px
 }
 
 p {
