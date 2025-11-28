@@ -204,9 +204,13 @@ form button[type="submit"]:hover {
     height: 2rem; 
 }
 
-.center-img {
-    display: block;
-    margin: 0 auto; 
-    max-width: 100%;  
+.img-center {
+    text-align: center;
+    width: 100%;
+}
+
+.img-center img {
+    max-width: 100%;
     height: auto;
+    display: inline-block;
 }
