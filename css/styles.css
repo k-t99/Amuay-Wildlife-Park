@@ -27,7 +27,7 @@ body {
     border-radius: 8px;         
     z-index: 1000;        
 }
-@media screen and (max-width: 600px) {
+(max-width: 600px) {
   .logo img {
     max-width: 50%;
     height: auto;
