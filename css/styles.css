@@ -18,6 +18,7 @@ body {
 
 .logo {
     position: absolute;  
+    display: flex;
     top: 10px;            
     left: 10px;          
     width: 120px;         
@@ -42,7 +43,7 @@ h2 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Ruda', sans-serif;
+  font-family:Ruda', sans-serif;
 }
 nav {
   display: flex;             
