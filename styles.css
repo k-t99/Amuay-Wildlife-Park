@@ -1,0 +1,142 @@
+body {
+  font-family: Georgia;
+  background-color: #f2f7f3;
+  color: #1f2a1c;
+  margin: 0;
+}
+header h1 {
+  margin: 0 0 0.5rem 0;
+}
+
+nav a {
+  color: #1f2a1c;
+  text-decoration: none;
+  margin-right: 1rem;
+  padding: 0.5rem 0.8rem;
+  border-radius:999px;
+}
+
+nav a:hover {
+  background-color: #f3c65b;
+  color: #1f2a1c;
+}
+
+main {
+  max-width: 900px;
+  margin:1.5rem auto;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.75rem;
+}
+
+footer {
+  background-color: #1f2a1c;
+  color: #e0e0e0;
+  text-align: center;
+  padding: 0.8rem;
+  font-size: 0.90rem;
+  margin-top: 2rem;
+}
+
+.filters {
+  margin: 1rem 0;
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+.filters button {
+  background-color: #848b7f;
+  border: none;
+  padding: 0.6rem 1rem:
+border-radius: 999px:
+cursor: pointer;
+}
+.filter button:hover {
+  background-color: #778472;
+}
+
+.filter button.active {
+  background-color: #234122
+    color: #f0f7ec;
+}
+
+.wildlife-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  marging-top: 1rem;
+}
+.animal-card {
+background-color: white;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba (0,0,0,0.1);
+}
+.animal-card img {
+  width: 100%;
+  border-radius: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+.animal-card h3 {
+  margin: 0.75rem 0;
+}
+.animal-card p {
+  margin: 0.4rem 0;
+}
+.habitat {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.gallery-grid img {
+  width: 100%;
+  display: block;
+  border-radius: 0.75rem;
+}
+box-shadow:0 2px 4px rgba (0,0,0,0.08);
+
+form {
+  max-width: 500px;
+  margin-top: 1rem;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.75rem;
+}
+
+.form-row label {
+  margin-bottom: 0.50rem;
+  font-weight: bold;
+}
+
+.form-row input,
+.form-row select,
+.form-row textarea {
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  border: 1px solid #c3d2bc;
+  font: inherit;
+}
+
+form button[type="submit"] {
+  padding: 0.6re, 1.2rem;
+  border: none;
+  border-radius: 999px;
+  background-color: #234122;
+  color: #f0f7ec,
+    cursor: pointer;
+  font-size: 0.95rem;
+}
+
+form button[type="submit"]:hover {
+  background-color: #1a321a
+}

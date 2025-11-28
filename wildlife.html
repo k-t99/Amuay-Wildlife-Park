@@ -1,166 +1,123 @@
-<!DOCTYPE html>
+<DOCTYPE html>
   <html lang="en">
     <head>
       <meta charset="UTF-8">
         <title>Amuay Wildlife Park - Wildlife At The Park</title>
         <link rel="stylesheet" href="css/styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Ruda:wght@700&family=Barlow:wght@400;700&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
     </head>
     <body>
   <header>
         <h1>Amuay Wildlife Park</h1>
-     <img src="images/logoamuay1.PNG" alt="Amuay Wildlife Park Logo" class="logo">
         <nav>
           <a href="index.html">Home</a>
-          <a href="wildlife.html">Wildlife at the Park</a>
-          <a href="gallery.html">Photo Gallery</a>
+          <a href="wildlife at the park.html">Wildlife at the Park</a>
+          <a href="photo gallery.html">Photo Gallery</a>
           <a href="About.html">About the Park</a>
           <a href="visit.html">Plan Your Visit</a>
         </nav>
       </header>
 <main>
   <h2>Wildlife</h2>
-  <h3>Explore the Life of Amuay</h3>
   <p>
-    The Wildlife Gallery celebrates the incredible biodiversity of Amuay Wildlife Park — a sanctuary for hundreds of native Venezuelan species. From the soaring scarlet ibis to the stealthy jaguar, every corner of the park reveals a story of survival, beauty, and balance.</p>
-
-<p>Amuay’s habitats include open savannahs, lush tropical wetlands, shaded forest trails, and peaceful marshes, each supporting its own community of remarkable creatures. Our gallery showcases the park’s most iconic residents, highlighting their behaviour, adaptations, and the importance of their protection. 
+    {animals and stuff, etc.}
   </p>
-  <div class="filters">
-    <button class="filter-btn" data-type="grassland">Grassland Animals</button>
-    <button class="filter-btn" data-type="wetland">Wetland Animals</button> 
-    <button class="filter-btn" data-type="forest">Forest Animals</button>
-  </div>
-  <section class="wildlife-grid">
+  <section class="filters">
+    <button class="filter-btn" data-type="all animals">Animals List</button>
+    <button class="filter-btn" data-type="mammal"> Only Mammals</button> 
+    <button class="filter-btn" data-type="bird"> Only Bird</button>
+    <button class="filter-btn" data-type="repitle">Only Reptile</button>
   </section>
-  <article class="animal-card" data-type="forest">
+  <section class="wildlife-grid">
+    <!-- animal card goes here-->
+  </section>
+  <article class="animal-card" data-type="mammal, bird, reptile">
     <img src="images/jaguar.ong.png">
     <h3>Jaguar (Panthera onca)</h3>
     <p>The largest cat in the Americas, the jaguar is an apex predator that roams Amuay's forested hills and riverbanks. Recognised by its golden coat and rosette markings, this powerful hunter plays a vital role in maintaining balance within the ecosystem. Jaguars are shy and mainly active at night, making a rare sighting truly special.</p>
+    <p class="habitat">Habitat: something here</p>
   </article>
-      <div class="spacer"></div>
-   <article class="animal-card" data-type="wetland">
-    <img src="images/Scarlet Ibis .png">
+   <article class="animal-card" data-type="mammal, bird, reptile">
+    <img src="images/Scarlet Ibis.png">
     <h3>Scarlet Ibis (Eudocimus ruber)</h3>
     <p>Venezuela's national bird, the scarlet ibis, is known for its brilliant red feathers, which glow against the green wetlands. Flocks of ibis can often be seen wading in shallow lagoons, feeding on small crustaceans and fish. Their vivid colour comes from their diet rich in carotenoids.</p>
+    <p class="habitat">Habitat: something here</p>
   </article>
-      <div class="spacer"></div>
-   <article class="animal-card" data-type="grassland">
-  <img src="images/Giant Anteater.png">
+   <article class="animal-card" data-type="mammal, bird, reptile">
+    <img src="images/Giant Anteater.png">
     <h3>Giant Anteater</h3>
     <p>Easily recognized by its long snout and sweeping tail, the giant anteater uses its sticky tongue to capture thousands of ants and termites each day. Found in the park's grasslands, it's a gentle creature vital to controlling insect populations.</p>
+    <p class="habitat">Habitat: something here</p>
   </article>
-      <div class="spacer"></div>
-  <article class="animal-card" data-type="grassland">
+  <article class="animal-card" data-type="mammal, bird, reptile">
     <img src="images/Capybara .png">
     <h3>Capybara (Hydrochoerus hydrochaeris)</h3>
     <p>The world's largest rodent, the capybara is a social and semi-aquatic animal often seen lounging near ponds and marshes. Capybara live in family groups and are known for their calm nature and close bond with other wildlife.</p>
+    <p class="habitat">Habitat: something here</p>
   </article>
-      <div class="spacer"></div>
-  <article class="animal-card" data-type="forest">
+  <article class="animal-card" data-type="mammal, bird, reptile">
     <img src="images/Howler Monkey.png">
     <h3>Howler Monkey (Alouatta seniculus)</h3>
     <p>These red-brown monkeys are famous for their loud calls that echo across the forest canopy. Living in family troops, they feed mainly on leaves and fruit. Their vocalisations are a defining sound of the park's early mornings.</p>
+    <p class="habitat">Habitat: something here</p>
   </article>
-      <div class="spacer"></div>
-  <article class="animal-card" data-type="wetland">
+  <article class="animal-card" data-type="mammal, bird, reptile">
     <img src="images/Green Anaconda.png">
     <h3>Green Anaconda (Eunectes murinus)</h3>
     <p> One of the heaviest snakes in the world, the green anaconda thrives in Amuay's marshes and river systems. Despite its size, it moves gracefully through the water, feeding on fish and small mammals. Rangers carefully monitor anaconda populations to ensure balance between species.<p>
+    <p class="habitat">Habitat: something here</p>
   </article>
-      <div class="spacer"></div>
-  <article class="animal-card" data-type="wetland">
+  <article class="animal-card" data-type="mammal, bird, reptile">
     <img src="images/Orinoco Goose.png">
     <h3>Orinoco Goose (Neochen jubata)</h3>
 <p>A beautifully patterned bird of the river banks and floodplains. It often travels in pairs and is known for its loyalty - many Orinoco geese mate for life.<p>
+    <p class="habitat">Habitat: something here</p>
   </article>
-      <div class="spacer"></div>
-  <article class="animal-card" data-type="forest">
-    <img src="images/Turquoise-fronted amazon.png">
+  <article class="animal-card" data-type="mammal, bird, reptile">
+    <img src="images/Turquise-fronted amazon.png">
     <h3>Turquise-fronted Amazon (Amazona aestiva)</h3>
 <p>A lively green parrot with bright blue and yellow feathers around its face. Social, intelligent, and vocal, it thrives in forested areas and is often seen flying in small flocks.
+    <p class="habitat">Habitat: something here</p>
   </article>
-      <div class="spacer"></div>
-  <article class="animal-card" data-type="forest">
-    <img src="images/venezuelan troupial.png">
+  <article class="animal-card" data-type="mammal, bird, reptile">
+    <img src="images/Venezuelan troupial.png">
     <h3>Venezuelan Troupial (Icterus icterus)</h3>
 <p>The striking orange-and-black songbird is the national bird of Venezuela. It's known for its melodious call and habit of nesting in abandoned nests by other species.<p>
+    <p class="habitat">Habitat: something here</p>
   </article>
-      <div class="spacer"></div>
-  <article class="animal-card" data-type="forest">
+  <article class="animal-card" data-type="mammal, bird, reptile">
     <img src="images/Rufous-tailed Hummingbird.png">
     <h3>Rufous-tailed Hummingbird (Amazilia tzacatl)</h3>
 <p>One of the park's smallest yet most dazzling residents. It darts among tropical flowers, feeding on nectar with its slender beak and shimmering green body.<p>
+    <p class="habitat">Habitat: something here</p>
   </article>
-      <div class="spacer"></div>
-  <article class="animal-card" data-type="wetland">
-    <img src="images/orinoco crocodile.png">
+  <article class="animal-card" data-type="mammal, bird, reptile">
+    <img src="images/orinoco crododile.png">
     <h3>Orinoco Crocodile (Crocodylus inermedius)</h3>
 <p>An endangered reptile native to Venezuela's river systems, the Orinoco crocodile is one of the park's most protected species. It can grow over five metres long and relies on the park's marshlands for nesting and feeding grounds.<p>
-  </article> 
-      <div class="spacer"></div>
-  <article class="animal-card" data-type="forest">
+    <p class="habitat">Habitat: something here</p>
+  </article>  
+  <article class="animal-card" data-type="mammal, bird, reptile">
     <img src="images/Blue-and-Yellow Macaw.png">
     <h3>Blue-and-Yellow Macaw (Ara ararauna)</h3>
 <p>These intelligent and colourful birds add life and sound to the forest canopy. Macaws mate for life and are known for their playful personalities and mimicry. Conservation programmes at Amuay aim to protect their nesting sites from illegal trade.<p>
+    <p class="habitat">Habitat: something here</p>
   </article>  
-      <div class="spacer"></div>
-  <article class="animal-card" data-type="forest">
+  <article class="animal-card" data-type="mammal, bird, reptile">
     <img src="images/poison dart frog.png">
     <h3>Poison Dart Frog (Dendrobates tinctorius)</h3>
 <p>Small but striking, these frogs are found near moist leaf litter in the park's tropical areas. Their bright colours warn predators of their toxicity - a perfect example of nature's clever defences.<p>
-  </article>
-      <div class="spacer"></div>
-  <article class="animal-card" data-type="forest">
-    <img src="images/bairdstapir.png">
+    <p class="habitat">Habitat: something here</p>
+  </article><article class="animal-card" data-type="mammal, bird, reptile">
+    <img src="images/Bairds Tapir.png">
     <h3>Baird's Tapir (Tapirus bairdii)</h3>
 <p>A shy, nocturnal grazer often seen at dusk along the forest edge. Tapirs are vital seed dispersers, helping new plants grow and maintain forest health.<p>
+    <p class="habitat">Habitat: something here</p>
   </article>
-  
 </main>
 <footer>
   <p>&copy; 2025 Amuay Wildlife Park</p>
 </footer>
-<script>
-  // This code makes the wildlife filter buttons work on the Wildlife page.
-
-  document.addEventListener("DOMContentLoaded", function () {
-    // get all the filter buttons and all the animal cards
-    const quickFilters = document.querySelectorAll(".filter-btn");
-    const animalCards = document.querySelectorAll(".animal-card");
-
-    // if there are no buttons or no cards, stop
-    if (!quickFilters.length || !animalCards.length) {
-      return;
-    }
-
-    // add a click event to each button
-    quickFilters.forEach(function (button) {
-      button.addEventListener("click", function () {
-        const type = button.getAttribute("data-type"); // which filter was chosen
-
-        // remove "active" class from all buttons
-        quickFilters.forEach(function (btn) {
-          btn.classList.remove("active");
-        });
-
-        button.classList.add("active");
-
-        animalCards.forEach(function (card) {
-          const cardType = card.getAttribute("data-type");
-
-          if (type === "all" || type === cardType) {
-            card.style.display = "";
-          } else {
-            card.style.display = "none";
-          }
-        });
-      });
-    });
-  });
-</script>
-
-</body>
-</html>
-
+<script src="js/main.js"></script>
+    </body>
+  </html>
